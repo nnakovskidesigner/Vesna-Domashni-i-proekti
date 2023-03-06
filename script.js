@@ -86,6 +86,22 @@ function handleClick9() {
 
 link2.addEventListener("click", handleClick9);
 
-//really newline and new code below
+//emptydivs below
+
+const emptyDIV = document.getElementById('prazenDIV')
+
+emptyDIV.style.backgroundColor = "#3f51b5";
+emptyDIV.style.color = "#f4f4f4";
+emptyDIV.style.height = "60px";
+emptyDIV.style.width = "180px";
+emptyDIV.style.padding = "20px";
+
+emptyDIV.addEventListener('click', function() {
+  emptyDIV.textContent = "Thank you";
+  emptyDIV.style.backgroundColor = "#d94a38";
+});
+
+document.body.appendChild(div);
+
 
     
