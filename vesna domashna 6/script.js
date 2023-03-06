@@ -35,3 +35,43 @@ function handleClick4() {
 }
 
 firsth1.addEventListener("click", handleClick4);
+
+//newline
+
+const thirdparagraph = document.querySelector(".thirdparagraph");
+
+function handleClick5() {
+  thirdparagraph.textContent = "third paragraph"
+}
+
+thirdparagraph.addEventListener("click", handleClick5);
+
+//newline
+
+const secondh11 = document.querySelector(".secondh11");
+
+function handleClick6() {
+  secondh11.textContent = "second h1";
+}
+
+secondh11.addEventListener("click", handleClick6);
+
+//newline
+
+const thirdh1 = document.querySelector(".thirdh1");
+
+function handleClick7() {
+  thirdh1.textContent = "third h1";
+}
+
+thirdh1.addEventListener("click", handleClick7);
+
+//newline
+
+const link2 = document.querySelector(".link2");
+
+function handleClick8() {
+  link2.textContent = "link 2";
+}
+
+link2.addEventListener("click", handleClick8);
