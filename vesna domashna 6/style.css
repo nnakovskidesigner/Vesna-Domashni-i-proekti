@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.removeborder {
+  border: none;
+}
+.h1text{
+  font-size: 3em;
+}
+.wrapper {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+.first p{
+  border: 10px solid black;
+  padding: 5%;
+  border-radius: 50px;
+}
+h1{
+  border: 10px solid black;
+  padding: 5%;
+  border-radius: 50px;
+}
+a{
+  border: 10px solid black;
+  padding: 5%;
+  border-radius: 50px;
+  display: block;
+}
