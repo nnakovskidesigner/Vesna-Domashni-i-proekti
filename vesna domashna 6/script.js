@@ -75,3 +75,17 @@ function handleClick8() {
 }
 
 link2.addEventListener("click", handleClick8);
+
+//newline
+
+const prazenDIV = document.querySelector(".prazenDIV");
+
+function handleClick9() {
+  prazenDIV.textContent = "link 2";
+}
+
+link2.addEventListener("click", handleClick9);
+
+//really newline and new code below
+
+    
